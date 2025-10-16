@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SKILLS_DIR="${HOME}/.config/superpowers/skills"
-SKILLS_REPO="https://github.com/obra/superpowers-skills.git"
+SKILLS_REPO="https://github.com/nickpascucci/superpowers-skills.git"
 
 # Check if skills directory exists and is a valid git repo
 if [ -d "$SKILLS_DIR/.git" ]; then
